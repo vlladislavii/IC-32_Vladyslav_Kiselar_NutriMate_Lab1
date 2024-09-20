@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriMate Registration</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav left">
+                <li><a href="/lab1/index.html">Main Page</a></li>
+                <li><a href="/lab1/businessLogic.html">Features</a></li>
+            </ul>
+            <ul class="nav right">
+                <li><button">ENG</button></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="registration">
+            <img src="" alt="NutriMate logo" />
+            <h1>NutriMate</h1>
+            <h3>My NutriMate account</h3>
+            <form action="/submit_registration" method="post">
+                <fieldset>
+                    <legend>My Details</legend>
+    
+                    <label for="gender">Gender:</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="male" checked> Male</label>
+    
+                    <label for="currentWeight">Current Weight:</label>
+                    <input type="number" id="currentWeight" name="currentWeight" required> kg 
+                    <a href="#">(switch to lbs)</a>
+    
+                    <label for="height">Height:</label>
+                    <input type="number" id="height" name="height" required> cm 
+                    <a href="#">(switch to inches)</a>
+    
+                    <label for="dob">Date of Birth:</label>
+                    <input type="number" id="dob-day" name="dob-day" placeholder="Day" min="1" max="31" required>
+                    <input type="number" id="dob-month" name="dob-month" placeholder="Month" min="1" max="12" required>
+                    <input type="number" id="dob-year" name="dob-year" placeholder="Year" min="1900" max="2024" required>
+    
+                    <label>Activity Level*:</label>
+                    <label><input type="radio" name="activity" value="sedentary"> Sedentary</label>
+                    <label><input type="radio" name="activity" value="low-active"> Low active</label>
+                    <label><input type="radio" name="activity" value="active"> Active</label>
+                    <label><input type="radio" name="activity" value="very-active"> Very active</label>
+                    <button>*What activity level should I choose?</button>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>My Goals</legend>
+    
+                    <label for="dietGoal">Diet Goal:</label>
+                    <select id="dietGoal" name="dietGoal">
+                        <option value="maintain">Maintain my current weight</option>
+                        <option value="lose">Lose weight</option>
+                        <option value="gain">Gain weight</option>
+                    </select>
+    
+                    <label for="goalWeight">Goal Weight:</label>
+                    <input type="number" id="goalWeight" name="goalWeight" required> kg
+                </fieldset>
+    
+                <fieldset>
+                    <legend>NutriMate Account</legend>
+    
+                    <label for="memberName">Member name:</label>
+                    <input type="text" id="memberName" name="memberName" required>
+    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+                <p>*By clicking "Next" you agree to the NutriMate Terms and Conditions and Privacy Policy</p>
+
+                <button type="submit">Next</button>
+                <button type="button">Cancel</button>
+            </form>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div>
+            <section>
+                <h4>Contact Us</h4>
+                <p>Email: support@nutrimate.com</p>
+                <p>Phone: +123 456 7890</p>
+            </section>
+
+            <section>
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+</body>
+</html>

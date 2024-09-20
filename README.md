@@ -7,29 +7,29 @@
 ### Прототипи сторінок:
 
 #### Main start page:
-![Main start page](./img/prototypes/index.png)
+![Main start page](./img/prototype/index.png)
 
 #### Features page:
-![Features page](./img/prototypes/businessLogic.png)
+![Features page](./img/prototype/businessLogic.png)
 
 #### Registration page:
-![Registration page](./img/prototypes/registration.png)
+![Registration page](./img/prototype/registration.png)
 
 #### Login page:
-![Login page](./img/prototypes/login.png)
+![Login page](./img/prototype/login.png)
 
 #### Home page:
-![Home page](./img/prototypes/home-1.png)
+![Home page](./img/prototype/home-1.png)
 
-![Home page](./img/prototypes/home-2.png)
+![Home page](./img/prototype/home-2.png)
 
 #### Calculate page:
-![Calculate page](./img/prototypes/calculate-1.png)
+![Calculate page](./img/prototype/calculate-1.png)
 
-![Calculate page](./img/prototypes/calculate-2.png)
+![Calculate page](./img/prototype/calculate-2.png)
 
 #### Schedule page:
-![Schedule page](./img/prototypes/schedule.png)
+![Schedule page](./img/prototype/schedule.png)
 
 #### Settings page:
-![Settings page](./img/prototypes/settings.png)
+![Settings page](./img/prototype/settings.png)
