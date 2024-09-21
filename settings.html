@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings page - NutriMate</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h2>Welcome, USERNAME</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><button">Exit from account</button></li>
+                <li><a href="/calculate.html">Calculate</a></li>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/schedule.html">Schedule</a></li>
+                <li><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Personal info, goals</h3>
+            <table border="1">
+                <tr>
+                    <td>Name</td>
+                    <td>USERNAME</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>example@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>DATE</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>GENDER</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>NUMBER</td>
+                </tr>
+                <tr>
+                    <td>Goal Weight</td>
+                    <td>NUMBER</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>NUMBER</td>
+                </tr>
+                <tr>
+                    <td>Diet goal</td>
+                    <td>Maintain current weight</td>
+                </tr>
+                <tr>
+                    <td>Daytime activity</td>
+                    <td>Low activity</td>
+                </tr>
+            </table>
+        </section>
+
+        <p>The account was created in DATE;</p>
+        <p>You can <a href="#">update your account info.</a></p>
+
+        <section>
+            <h3>General settings</h3>
+            <p>Language <span>En</span></p>
+            <p>Dark Theme <input type="checkbox" checked></p>
+        </section>
+
+        <section>
+            <h3>Password changes</h3>
+            <form action="#" method="post">
+                <label for="current-password">Current password</label>
+                <input type="password" id="current-password" name="current-password"><br>
+
+                <label for="new-password">New password</label>
+                <input type="password" id="new-password" name="new-password"><br>
+
+                <button type="submit">Change</button>
+            </form>
+        </section>
+    </main>  
+
+    <footer>
+        <div>
+            <p>&copy; 2024 NutriMate. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

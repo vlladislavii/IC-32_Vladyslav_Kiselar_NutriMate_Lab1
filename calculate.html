@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate page - NutriMate</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h2>Welcome, USERNAME</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><button">Exit from account</button></li>
+                <li><a href="/calculate.html">Calculate</a></li>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/schedule.html">Schedule</a></li>
+                <li><a href="/settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <p>The calculator will help you calculate online your <strong>daily calorie needs, body mass index (BMI)</strong>, and will also show recommendations for calorie intake for weight loss or weight gain.</p>
+            <p>To calculate your daily calorie intake and body index, answer a few questions.<br>
+            Before submitting, please check correctness of early entered information in "My account" page.</p>
+        </div>
+
+        <form action="#" method="post">
+            <div>
+                <h3>Daytime activity*:</h3>
+                <label><input type="radio" name="activity" value="sedentary" required> Sedentary</label><br>
+                <label><input type="radio" name="activity" value="low"> Low active</label><br>
+                <label><input type="radio" name="activity" value="active"> Active</label><br>
+                <label><input type="radio" name="activity" value="very_active"> Very active</label><br>
+            </div>
+
+            <div>
+                <h3>Diet goal:</h3>
+                <label><input type="radio" name="goal" value="lose_weight" required> Lose weight</label><br>
+                <label><input type="radio" name="goal" value="maintain"> Maintain my current weight</label><br>
+                <label><input type="radio" name="goal" value="gain_weight"> Gain weight</label><br>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <table>
+            <tr>
+                <th>Daytime activity</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Sedentary</td>
+                <td>Sedentary work, lack of sports</td>
+            </tr>
+            <tr>
+                <td>Low activity</td>
+                <td>Light physical exercise about 3 times a week, daily morning exercises, walking</td>
+            </tr>
+            <tr>
+                <td>Active</td>
+                <td>Sports up to 5 times a week</td>
+            </tr>
+            <tr>
+                <td>Very active</td>
+                <td>Maximum activity - sports lifestyle, hard physical work, long hard workouts every day</td>
+            </tr>
+        </table>
+    </main>  
+
+    <footer>
+        <div>
+            <p>&copy; 2024 NutriMate. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

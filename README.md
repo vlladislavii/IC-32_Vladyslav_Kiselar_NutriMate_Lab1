@@ -31,5 +31,8 @@
 #### Schedule page:
 ![Schedule page](./img/prototype/schedule.png)
 
+#### History page:
+![Schedule page](./img/prototype/history.png)
+
 #### Settings page:
 ![Settings page](./img/prototype/settings.png)
